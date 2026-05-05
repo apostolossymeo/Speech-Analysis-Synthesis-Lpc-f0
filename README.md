@@ -6,7 +6,8 @@ Speech signals are analyzed using short-time spectral methods and simple frame-b
 The spectral envelope is modeled using linear predictive coding (LPC), providing a parametric representation consistent with the source–filter interpretation of speech production. Synthetic signals generated under the same assumptions are used as a reference, allowing direct comparison between modeled and recorded speech.
 
 The results indicate that classical parametric methods capture the dominant spectral structure and excitation behavior of speech, while failing to reproduce fine temporal variation and natural irregularities.
-## Method
+
+## Methodology
 
 The signal is analyzed under the assumption of short-time stationarity. A frame-based approach is adopted, with analysis performed over fixed-length windows.
 
